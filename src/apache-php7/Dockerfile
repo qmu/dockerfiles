@@ -3,6 +3,7 @@ FROM php:7.1.4-alpine
 MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 
 RUN apk --no-cache --update add \
+        pcre-dev \
         apache2 \
         curl-dev \
         zlib-dev \
