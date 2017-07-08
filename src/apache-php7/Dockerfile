@@ -8,7 +8,8 @@ RUN apk --no-cache --update add \
         zlib-dev \
         libxml2-dev \
         libmcrypt-dev \
-        libpng-dev \ libjpeg-turbo-dev \
+        libpng-dev \
+        libjpeg-turbo-dev \
         icu-dev \
     && docker-php-ext-install \
         pdo \
@@ -38,12 +39,12 @@ ADD 000-default.conf /etc/apache2/conf.d/default.conf
 ADD php.ini /usr/local/etc/php/php.ini
 
 # locale
-RUN apt-get install locales
-RUN locale-gen ja_JP.UTF-8  
+#RUN apk --no-cache --update add locales
+#RUN locale-gen ja_JP.UTF-8  
 ENV LANG ja_JP.UTF-8  
 ENV LANGUAGE ja_JP:en  
 ENV LC_ALL ja_JP.UTF-8  
-RUN localedef -f UTF-8 -i ja_JP ja_JP.UTF-8
+#RUN localedef -f UTF-8 -i ja_JP ja_JP.UTF-8
 
 RUN mkdir -p /run/apache2
 RUN mkdir /var/www/html/
