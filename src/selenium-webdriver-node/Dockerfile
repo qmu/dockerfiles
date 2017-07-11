@@ -4,7 +4,7 @@ MAINTAINER TAMURA Yoshiya <a@qmu.co.jp>
 
 # Install bower, gulp
 RUN yarn global add mocha && \
-    yarn add selenium-webdriver expect.js js-yaml shelljs && \
+    yarn add selenium-webdriver expect.js js-yaml shelljs colors && \
     yarn cache clean && \
     rm -rf /var/cache/* /tmp/*
 
