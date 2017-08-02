@@ -7,6 +7,10 @@ RUN \
     wget "https://downloads.sourceforge.net/project/plantuml/plantuml.jar" -O plantuml.jar && \
     apk del wget ca-certificates
 
+COPY ipagp.ttf /usr/share/fonts/
+RUN fc-cache -f -v
+
+ENV LANG ja_JP.UTF-8
 ENV PLANTUML_LIMIT_SIZE 16384
 
 RUN mkdir /workspace
