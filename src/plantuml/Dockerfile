@@ -7,7 +7,6 @@ RUN \
     wget "https://downloads.sourceforge.net/project/plantuml/plantuml.jar" -O plantuml.jar && \
     apk del wget ca-certificates
 
-RUN mkdir /usr/share/fonts
 COPY ipagp.ttf /usr/share/fonts/
 RUN fc-cache -f -v
 
