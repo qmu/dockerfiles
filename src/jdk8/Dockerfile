@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:8u121-jdk-alpine
 
 MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 
