@@ -1,9 +1,9 @@
-FROM alpine:latest
+FROM openjdk:8-jdk-alpine
 
 MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 
 RUN apk update \
-    && apk add --no-cache openjdk8 fontconfig \
+    && apk add --no-cache fontconfig \
     && rm -rf /tmp/* \
     && mkdir /usr/share/fonts
 
