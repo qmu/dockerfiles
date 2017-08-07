@@ -13,8 +13,8 @@ RUN mkdir $HOME/pkg && \
     mkdir $HOME/workdir && \
     mkdir $HOME/conf && \
     curl --silent --location https://github.com/schemaspy/schemaspy/releases/download/v6.0.0-rc1/schemaspy-6.0.0-rc1.jar > $HOME/pkg/schemaSpy.jar && \
-    curl --silent --location https://cdn.mysql.com/Downloads/Connector-J/mysql-connector-java-5.1.41.tar.gz | tar -C $HOME/pkg/ -xzf - && \
-    ln -s mysql-connector-java-5.1.41/mysql-connector-java-5.1.41-bin.jar $HOME/pkg/mysql-conn.jar
+    curl --silent --location https://cdn.mysql.com/Downloads/Connector-J/mysql-connector-java-5.1.43.tar.gz | tar -C $HOME/pkg/ -xzf - && \
+    ln -s mysql-connector-java-5.1.43/mysql-connector-java-5.1.43-bin.jar $HOME/pkg/mysql-conn.jar
 
 WORKDIR /home/user/workdir
 ENTRYPOINT ["java", "-jar", "/home/user/pkg/schemaSpy.jar"]
