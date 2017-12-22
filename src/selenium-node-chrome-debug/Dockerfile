@@ -1,5 +1,7 @@
 FROM selenium/node-chrome-debug
 
+MAINTAINER TAMURA Yoshiya <a@qmu.jp>
+
 USER root
 
 #===================

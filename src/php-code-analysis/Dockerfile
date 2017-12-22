@@ -1,6 +1,6 @@
 FROM php:5.6-alpine
 
-MAINTAINER TAMURA Yoshiya <a@qmu.co.jp>
+MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer 
 

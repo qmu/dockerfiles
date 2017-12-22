@@ -1,5 +1,7 @@
 FROM selenium/node-firefox-debug
 
+MAINTAINER TAMURA Yoshiya <a@qmu.jp>
+
 USER root
 
 #===================

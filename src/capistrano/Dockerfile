@@ -1,6 +1,6 @@
 FROM ruby:2.3-alpine
 
-MAINTAINER TAMURA Yoshiya <a@qmu.co.jp>
+MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 
 RUN apk add --no-cache openssh \
     && gem install --no-rdoc --no-ri capistrano \
