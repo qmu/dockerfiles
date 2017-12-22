@@ -1,0 +1,22 @@
+#! /bin/sh
+
+# ------------------------
+#
+# Run a container as an example
+#
+# ------------------------
+
+cd `dirname $0`/../
+HERE=$(pwd)
+
+echo ""
+echo "----------------------------"
+echo "Running an example"
+echo "----------------------------"
+echo ""
+
+docker run --rm -it \
+       -v ~/.ssh:/home/docker/.ssh \
+       -v $(pwd):/home/docker/ansible \
+       qmu1/ansible /bin/sh -c \
+       'ansible-playbook --version && ls -la'
