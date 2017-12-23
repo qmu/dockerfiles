@@ -16,4 +16,6 @@ echo "----------------------------"
 echo ""
 
 docker run -it --rm \
-    qmu1/aws-cli:latest --version
+    qmu1/serverspec:latest /bin/sh -c '
+    rake --version
+    '
