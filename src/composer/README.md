@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [Composer](https://github.com/composer/co
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-composer/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/composer/Dockerfile)
 
 ## Usage
 

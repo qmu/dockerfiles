@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [PlantUML](https://github.com/plantuml/pl
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-plantuml/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/plantuml/Dockerfile)
 
 ## Usage
 

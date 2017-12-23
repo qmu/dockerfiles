@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [RedPen](https://github.com/redpen-cc/red
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-redpen/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/redpen/Dockerfile)
 
 ## Usage
 

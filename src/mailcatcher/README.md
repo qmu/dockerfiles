@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [MailCatcher](https://github.com/sj26/mai
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-mailcatcher/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/mailcatcher/Dockerfile)
 
 ## Usage
 

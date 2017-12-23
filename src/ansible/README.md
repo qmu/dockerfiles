@@ -8,7 +8,8 @@ An alipine-based dockerfile which runs [Ansible](https://www.ansible.com).
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/Ansible/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/ansible/Dockerfile)
+
 
 ## Usage
 

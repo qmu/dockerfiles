@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [MkDocs](http://www.mkdocs.org/) with its
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-mkdocs/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/sonar-runner/Dockerfile)
 
 ## Usage
 

@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [phpMyAdmin](https://github.com/phpmyadmi
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-phpmyadmin/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/phpmyadmin/Dockerfile)
 
 ## Usage
 

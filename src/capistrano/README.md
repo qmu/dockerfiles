@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [Capistrano](https://github.com/capistran
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-capistrano/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/capistrano/Dockerfile)
 
 ## Usage
 
@@ -19,7 +19,6 @@ docker run -it --rm \
     -v ~/.ssh:/root/.ssh \
     -v $PROJECT_PATH:/root/source \
     qmu1/capistrano ./cap production deploy
-
 ```
 
 ## DockerHub

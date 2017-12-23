@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [Apache with PHP7](http://www.apache-php7
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-apache-php7/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/apache-php7/Dockerfile)
 
 ## Usage
 

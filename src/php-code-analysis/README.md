@@ -14,7 +14,7 @@ An alipine-based dockerfile which includes code analysis tools for PHP.
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-php-code-analysis/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/php-code-analysis/Dockerfile)
 
 ## Usage
 

@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [SchemaSpy v6 RC1](https://github.com/sch
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-schemaspy/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/schemaspy/Dockerfile)
 
 ## Usage
 

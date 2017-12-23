@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [aws-cli](https://github.com/aws/aws-cli)
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-aws-cli/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/aws-cli/Dockerfile)
 
 ## Usage
 

@@ -8,7 +8,7 @@ An alipine-based dockerfile which builds [Java SE Development Kit 8](http://www.
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-jdk8/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/jdk8/Dockerfile)
 
 ## Usage
 

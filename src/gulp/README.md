@@ -8,7 +8,7 @@ An alipine-based dockerfile which runs [Gulp](https://github.com/gulpjs/gulp) an
 
 ## Supported tags and respective Dockerfile links
 
-* `latest` [(Dockerfile)](https://github.com/qmu/docker-gulp/blob/master/Dockerfile)
+* `latest` [(Dockerfile)](https://github.com/qmu/dockerfiles/blob/master/src/gulp/Dockerfile)
 
 ## Usage
 
