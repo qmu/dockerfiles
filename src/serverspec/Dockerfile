@@ -12,7 +12,7 @@ RUN echo "===> Adding Serverspec..."  && \
     \
     echo "===> Adding docker user..."  && \
     echo http://dl-2.alpinelinux.org/alpine/edge/community/ >> /etc/apk/repositories && \
-    apk --update add shadow openssh && \
+    apk --update add openssh shadow sudo && \
     useradd -m -d /home/docker -u 1000 -s /bin/sh docker     && \
     echo 'docker ALL=(ALL:ALL) NOPASSWD:ALL' >> /etc/sudoers && \
     echo 'docker:docker' | chpasswd                          && \
