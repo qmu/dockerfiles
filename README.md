@@ -28,6 +28,7 @@ Thus these images would be developed continuously, **unsuitable for production u
 * [Selenium WebDriver (Node.js)](src/selenium-webdriver-node/)
 * [Serverspec](src/serverspec/)
 * [sonar-runner](src/sonar-runner/)
+* [Terraform](src/terraform/)
 * [Vuls](src/vuls/)
 
 ## Usage
