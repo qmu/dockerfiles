@@ -102,6 +102,10 @@ widgets:
         name: Build & Check sonar-runner
         description: build & run to check an example in src/sonar-runner
         command: /bin/sh -c "bin/build sonar-runner && src/sonar-runner/example/bin/run"
+      - category: Docker
+        name: Build & Check terraform
+        description: build & run to check an example in src/terraform
+        command: /bin/sh -c "bin/build terraform && src/terraform/example/bin/run"
 
 layout:
   - name: DASHBOARD
