@@ -4,7 +4,7 @@ MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 
 RUN echo "===> Adding Python runtime..."  && \
     echo http://dl-2.alpinelinux.org/alpine/edge/community/ >> /etc/apk/repositories && \
-    apk --update add python py-pip openssh shadow && \
+    apk --update add python py-pip openssh shadow sudo && \
     apk --update add --virtual build-dependencies \
                 python-dev libffi-dev openssl-dev build-base  && \
     pip install --upgrade pip cffi pycrypto               && \
