@@ -16,7 +16,7 @@ echo "----------------------------"
 echo ""
 
 docker run -it --rm \
-    -v $HERE:/project \
+    -v $HERE:/docs \
     qmu1/mkdocs:latest \
     /bin/sh -c "
         mkdocs build --clean -f ./config.yml -d ./output;
