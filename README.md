@@ -19,6 +19,7 @@ Thus these images would be developed continuously, **unsuitable for production u
 * [phpDocumentor](src/phpdocumentor/)
 * [phpMyAdmin](src/phpmyadmin/)
 * [PlantUML](src/plantuml/)
+* [PlantUML-Gulp](src/plantuml-gulp/)
 * [RedPen](src/redpen/)
 * [SchemaSpy](src/schemaspy/)
 * [Selenium Node Chrome](src/selenium-node-chrome-debug/)
