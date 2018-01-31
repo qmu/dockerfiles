@@ -63,6 +63,10 @@ widgets:
         description: build & run to check an example in src/plantuml
         command: /bin/sh -c "bin/build plantuml && src/plantuml/example/bin/run"
       - category: Docker
+        name: Build & Check PlantUML with Gulp
+        description: build & run to check an example in src/plantuml-gulp
+        command: /bin/sh -c "bin/build plantuml-gulp && src/plantuml-gulp/example/bin/run"
+      - category: Docker
         name: Build & Check RedPen
         description: build & run to check an example in src/redpen
         command: /bin/sh -c "bin/build redpen && src/redpen/example/bin/run"
