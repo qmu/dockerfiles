@@ -1,8 +1,10 @@
 gulp        = require 'gulp'
 plantuml    = require 'gulp-plantuml'
+cache       = require 'gulp-cached'
 
 gulp.task 'plantuml', ->
   gulp.src "/workspace/uml/**/*.pu"
+    .pipe cache('plantuml')
     .pipe plantuml(
       jarPath: "/plantuml.jar"
     )

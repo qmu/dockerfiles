@@ -7,7 +7,7 @@ WORKDIR /workspace
 RUN \
     apk add --no-cache nodejs \
     && npm install -g gulp \
-    && npm install --save-dev gulp gulp-coffee gulp-plantuml
+    && npm install --save-dev gulp gulp-coffee gulp-plantuml gulp-cached
 
 RUN mkdir -p /workspace/uml \
     && mkdir -p /workspace/img
