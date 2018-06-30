@@ -35,6 +35,10 @@ widgets:
         description: build & run to check an example in src/gulp
         command: /bin/sh -c "bin/build gulp && src/gulp/example/bin/run"
       - category: Docker
+        name: Build & Check webpack
+        description: build & run to check an example in src/webpack
+        command: /bin/sh -c "bin/build webpack && src/webpack/example/bin/run"
+      - category: Docker
         name: Build & Check jdk8
         description: build & run to check an example in src/jdk8
         command: /bin/sh -c "bin/build jdk8 && src/jdk8/example/bin/run"
