@@ -31,6 +31,7 @@ Thus these images would be developed continuously, **unsuitable for production u
 * [sonar-runner](src/sonar-runner/)
 * [Terraform](src/terraform/)
 * [Vuls](src/vuls/)
+* [Storybook for Vue.js](src/storybook-vue/)
 
 ## Usage
 
