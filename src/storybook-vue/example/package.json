@@ -1,0 +1,26 @@
+{
+  "name": "storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "config.js",
+  "dependencies": {
+    "babel-loader": "^8.0.5",
+    "babel-preset-vue": "^2.0.2",
+    "vue": "^2.6.8",
+    "vue-loader": "^15.7.0",
+    "vue-template-compiler": "^2.6.8",
+    "vuex": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@storybook/addon-actions": "^5.0.0",
+    "@storybook/addon-knobs": "^5.0.0",
+    "@storybook/vue": "^5.0.0",
+    "storybook-addon-vue-info": "^1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

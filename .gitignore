@@ -17,3 +17,6 @@ Thumbs.db
 bin/lib/mcc
 
 src/*/example/output
+
+#
+node_modules/
