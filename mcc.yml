@@ -115,6 +115,10 @@ widgets:
         description: build & run to check an example in src/terraform
         command: /bin/sh -c "bin/build terraform && src/terraform/example/bin/run"
       - category: Docker
+        name: Build & Check storybook-react
+        description: build & run to check an example in src/storybook-react
+        command: /bin/sh -c "bin/build storybook-react && src/storybook-react/example/bin/run"
+      - category: Docker
         name: Build & Check storybook-vue
         description: build & run to check an example in src/storybook-vue
         command: /bin/sh -c "bin/build storybook-vue && src/storybook-vue/example/bin/run"

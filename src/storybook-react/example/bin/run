@@ -1,0 +1,27 @@
+#! /bin/sh
+
+# ------------------------
+#
+# Run a container as an example
+#
+# ------------------------
+
+cd `dirname $0`/../
+HERE=$(pwd)
+
+echo ""
+echo "----------------------------"
+echo "Running an example"
+echo "----------------------------"
+echo ""
+
+docker run -it --rm \
+    -v $(pwd):/workspace \
+    -p 9001:9001 \
+    qmu1/storybook:latest /bin/sh -c "
+        echo '[node version:]'
+        node -v
+        echo '[resolve npm dependencies:]'
+        echo '[run storybook:]'
+        start-storybook -p 9001 -c src/.storybook
+"
