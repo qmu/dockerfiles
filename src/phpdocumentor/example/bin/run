@@ -16,4 +16,4 @@ echo "----------------------------"
 echo ""
 
 docker run -it --rm \
-    qmu1/phpdocumentor:latest phpdoc --version
+    qmu1/phpdocumentor:latest --version

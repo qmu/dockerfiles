@@ -4,7 +4,7 @@
 ![](https://img.shields.io/docker/build/qmu1/phpdocumentor.svg)
 [![layers badge](https://images.microbadger.com/badges/image/qmu1/phpdocumentor.svg)](https://microbadger.com/images/qmu1/phpdocumentor)
 
-An alipine-based dockerfile which runs [phpDocumentor](https://github.com/phpDocumentor/phpDocumentor2).
+Runs [phpDocumentor](https://github.com/phpDocumentor/phpDocumentor2) (Not the alipine-based https://github.com/phpDocumentor/phpDocumentor2/issues/1874 )
 
 ## Supported tags and respective Dockerfile links
 
