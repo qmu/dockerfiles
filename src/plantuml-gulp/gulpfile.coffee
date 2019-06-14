@@ -16,7 +16,9 @@ gulp.task 'plantuml', ->
     .pipe gulp.dest "/workspace/img"
 
 gulp.task 'watch', ->
-  gulp.watch "/workspace/uml/**/*.pu", [ "plantuml" ]
+  gulp.watch "/workspace/uml/**/*.pu", gulp.task("plantuml")
   gulp.src 'gulpfile.coffee'
 
-gulp.task 'default', ['plantuml', 'watch']
+gulp.task 'default', gulp.series(gulp.parallel('plantuml', 'watch'))
+
+ 
