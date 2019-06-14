@@ -6,7 +6,7 @@ WORKDIR /workspace
 
 RUN \
     apk add --no-cache nodejs \
-    && npm install -g gulp \
+    && npm install -g gulp coffee-script \
     && npm install --save-dev gulp gulp-coffee gulp-plantuml gulp-cached gulp-plumber
 
 RUN mkdir -p /workspace/uml \
