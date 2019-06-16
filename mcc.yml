@@ -122,6 +122,10 @@ widgets:
         name: Build & Check storybook-vue
         description: build & run to check an example in src/storybook-vue
         command: /bin/sh -c "bin/build storybook-vue && src/storybook-vue/example/bin/run"
+      - category: Docker
+        name: Build & Check golang-dep
+        description: build & run to check an example in src/golang-dep
+        command: /bin/sh -c "bin/build golang-dep && src/golang-dep/example/bin/run"
 
 layout:
   - name: DASHBOARD
