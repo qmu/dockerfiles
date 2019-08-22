@@ -126,6 +126,10 @@ widgets:
         name: Build & Check golang-dep
         description: build & run to check an example in src/golang-dep
         command: /bin/sh -c "bin/build golang-dep && src/golang-dep/example/bin/run"
+      - category: Docker
+        name: Build & Check ANTLR4
+        description: build & run to check an example in src/antlr
+        command: /bin/sh -c "bin/build antlr4 && src/antlr4/example/bin/run"
 
 layout:
   - name: DASHBOARD

@@ -1,0 +1,24 @@
+#! /bin/sh
+
+# ------------------------
+#
+# Run a container as an example
+#
+# ------------------------
+
+cd `dirname $0`/../
+HERE=$(pwd)
+
+echo ""
+echo "----------------------------"
+echo "Running an example"
+echo "----------------------------"
+echo ""
+
+docker run -it --rm \
+    -v $(pwd):/workspace \
+    qmu1/antlr4:latest sh -c "
+        cd /workspace
+        java -jar /antlr.jar -Dlanguage=Go -o ./code JSON.g4
+        java -jar /rrd-antlr.jar JSON.g4
+    "
