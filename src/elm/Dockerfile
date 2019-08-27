@@ -8,6 +8,11 @@ RUN npm install -g npm
 RUN npm install -g webpack webpack-cli
 
 ENV ELM_VERSION=0.19.0
-RUN npm install -g elm@${ELM_VERSION}-no-deps --unsafe-perm=true --allow-root 
+RUN npm install -g \
+    elm@${ELM_VERSION}-no-deps \
+    elm-test \
+    elm-oracle \
+    elm-format \
+    --unsafe-perm=true --allow-root 
 
 WORKDIR /workspace
