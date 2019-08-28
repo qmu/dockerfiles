@@ -1,8 +1,8 @@
-FROM node:10.16-alpine
+FROM node:10.16-slim
 
 MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 
-RUN apk add --no-cache --update ca-certificates openssl
+RUN apt-get install ca-certificates openssl
 
 RUN npm install -g npm
 RUN npm install -g webpack webpack-cli
