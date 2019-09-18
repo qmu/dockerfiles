@@ -134,6 +134,10 @@ widgets:
         name: Build & Check elm
         description: build & run to check an example in src/elm
         command: /bin/sh -c "bin/build elm && src/elm/example/bin/run"
+      - category: Docker
+        name: Build & Check ReasonML
+        description: build & run to check an example in src/reasonml
+        command: /bin/sh -c "bin/build reasonml && src/reasonml/example/bin/run"
 
 layout:
   - name: DASHBOARD
