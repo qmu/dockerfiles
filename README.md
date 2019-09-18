@@ -34,6 +34,8 @@ Thus these images would be developed continuously, **unsuitable for production u
 * [Vuls](src/vuls/)
 * [Storybook for React.js](src/storybook-react/)
 * [Storybook for Vue.js](src/storybook-vue/)
+* [Elm](src/elm/)
+* [ReasonML](src/reasonml/)
 
 ## Usage
 
