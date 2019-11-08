@@ -1,4 +1,4 @@
-FROM node:7.9-alpine
+FROM node:10.17-alpine
 
 MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 

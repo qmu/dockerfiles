@@ -19,6 +19,8 @@ docker run -it --rm \
     qmu1/gulp:latest /bin/sh -c "
         echo '[node version:]'
         node -v
+        echo '[bower version:]'
+        bower -v
         echo '[yarn version:]'
         yarn -v
         echo '[gulp version:]'
