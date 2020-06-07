@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.9
 
 MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 
@@ -11,7 +11,7 @@ RUN echo "===> Adding Python runtime..."  && \
     \
     \
     echo "===> Installing Ansible..."  && \
-    pip install ansible==2.4.2         && \
+    pip install ansible==2.9.9         && \
     \
     \
     echo "===> Adding docker user..."  && \
