@@ -19,7 +19,7 @@ widgets:
         description: build & run to check an example in src/ansible
         command: /bin/sh -c "bin/build ansible && src/ansible/example/bin/run"
       - category: Docker
-        name: Build & Check Apache and php7 
+        name: Build & Check Apache and php7
         description: build & run to check an example in src/apache-php7
         command: /bin/sh -c "bin/build apache-php7 && src/apache-php7/example/bin/run"
       - category: Docker
@@ -138,6 +138,10 @@ widgets:
         name: Build & Check ReasonML
         description: build & run to check an example in src/reasonml
         command: /bin/sh -c "bin/build reasonml && src/reasonml/example/bin/run"
+      - category: Docker
+        name: Build & Check redoc-cli
+        description: build & run to check an example in src/redoc-cli
+        command: /bin/sh -c "bin/build redoc-cli && src/redoc-cli/example/bin/run"
 
 layout:
   - name: DASHBOARD
@@ -147,4 +151,4 @@ layout:
           - width: 12
             stacks:
               - id: menu_docker
-                height: 100% 
+                height: 100%
