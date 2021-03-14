@@ -5,7 +5,7 @@ MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 RUN npm install -g npm
 RUN npm install -g webpack webpack-cli
 RUN npm install -g \
-    bs-platform@9.0.2 \
+    bs-platform@7.3.2 \
     --unsafe-perm=true --allow-root
 
 WORKDIR /workspace
