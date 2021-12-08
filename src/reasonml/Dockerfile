@@ -1,4 +1,4 @@
-FROM node:10.16-slim
+FROM node:16.12-slim
 
 MAINTAINER TAMURA Yoshiya <a@qmu.jp>
 
