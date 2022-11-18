@@ -15,7 +15,7 @@
     "@babel/core": "^7.3.4",
     "@storybook/addon-actions": "^5.0.0",
     "@storybook/addon-knobs": "^5.0.0",
-    "@storybook/vue": "^5.0.0",
+    "@storybook/vue": "^6.5.13",
     "storybook-addon-vue-info": "^1.0.0"
   },
   "scripts": {
