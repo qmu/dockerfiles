@@ -7,7 +7,7 @@
     "babel-loader": "^8.0.5",
     "babel-preset-vue": "^2.0.2",
     "vue": "^2.6.8",
-    "vue-loader": "^15.7.0",
+    "vue-loader": "^17.0.1",
     "vue-template-compiler": "^2.6.8",
     "vuex": "^3.1.0"
   },
@@ -15,7 +15,7 @@
     "@babel/core": "^7.3.4",
     "@storybook/addon-actions": "^5.0.0",
     "@storybook/addon-knobs": "^5.0.0",
-    "@storybook/vue": "^5.0.0",
+    "@storybook/vue": "^6.5.15",
     "storybook-addon-vue-info": "^1.0.0"
   },
   "scripts": {
